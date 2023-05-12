@@ -3,7 +3,7 @@ package com.maoxiaoyu.reggie.common;
 /**
  * 基于ThreadLocal封装工具类，用户保存和获取当前登录用户id
  * @version 17.0
- * @auther 猫小鱼
+ * @auther 猫小鱼1
  */
 public class BaseContext {
     private static ThreadLocal<Long> threadLocal =  new ThreadLocal<>();
